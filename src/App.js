@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css'
+import React, { Component, useState } from 'react'
+import ReactAudioPlayer from 'react-audio-player'
 
 function App() {
+  const [bowlvis, setBowlvis] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <section>
+        <div hidden={bowlvis}>
+          <div className="shadow" />
+          <div onClick={() => setBowlvis(true)} className="bowl">
+            <div className="liquid" />
+          </div>
+        </div>
+        <div hidden={!bowlvis}>
+          <h1 color="white">by DominNumb</h1>
+        </div>
+      </section>
+    </>
+  )
 }
 
-export default App;
+export default App
