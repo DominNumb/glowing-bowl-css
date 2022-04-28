@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/glowing-bowl-css/static/css/main.03afbba4.css",
+    "main.js": "/glowing-bowl-css/static/js/main.97700f01.js",
+    "static/js/787.a323805e.chunk.js": "/glowing-bowl-css/static/js/787.a323805e.chunk.js",
+    "index.html": "/glowing-bowl-css/index.html",
+    "main.03afbba4.css.map": "/glowing-bowl-css/static/css/main.03afbba4.css.map",
+    "main.97700f01.js.map": "/glowing-bowl-css/static/js/main.97700f01.js.map",
+    "787.a323805e.chunk.js.map": "/glowing-bowl-css/static/js/787.a323805e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03afbba4.css",
+    "static/js/main.97700f01.js"
+  ]
+}
